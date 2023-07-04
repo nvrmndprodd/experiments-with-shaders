@@ -109,7 +109,7 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _Edge: 0.417
-    - _EdgeWidth: 0.023
+    - _EdgeWidth: 0.015
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
