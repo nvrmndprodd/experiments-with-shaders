@@ -38,7 +38,7 @@ namespace CodeBase.OutlineRender
             cmd.GetTemporaryRT(_tmpBlurRTId1, blurTextureDesc, FilterMode.Bilinear);
             cmd.GetTemporaryRT(_tmpBlurRTId2, blurTextureDesc, FilterMode.Bilinear);
             
-            cmd.GetTemporaryRT(Shader.PropertyToID(_destination.name), blurTextureDesc, FilterMode.Bilinear);
+            //cmd.GetTemporaryRT(Shader.PropertyToID(_destination.name), blurTextureDesc, FilterMode.Bilinear);
             ConfigureTarget(_destination);
         }
 
