@@ -1,10 +1,9 @@
 ﻿using UnityEngine;
 using UnityEngine.Rendering.Universal;
-using UnityEngine.Serialization;
 
 namespace CodeBase.RendererFeatures.ScreenSpaceOutlinesFeature
 {
-    public class ScreenSpaceOutlines : ScriptableRendererFeature
+    public class MyScreenSpaceOutlines : ScriptableRendererFeature
     {
         [SerializeField] private RenderPassEvent renderPassEvent;
         [SerializeField] private ViewSpaceNormalsTextureSettings viewSpaceNormalsTextureSettings;
