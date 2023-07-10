@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Outline
-  m_Shader: {fileID: -6465566751694194690, guid: 84d8ec630acbf4e43aaa696a8d2ea637,
+  m_Name: TransparentOutlinePassMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: 7acf50ecf43ab1e48a9b840a51efffe4,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -101,12 +101,22 @@ Material:
     - _GlossyReflections: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
-    - _Outline_Thickness: 0.03
+    - _OutlineAcuteDepthThreshold: 2
+    - _OutlineAcuteStartDot: 0.95
+    - _OutlineDepthStrength: 1
+    - _OutlineDepthThreshold: 1
+    - _OutlineDepthTightening: 4
+    - _OutlineFarNormalEndDepth: 14
+    - _OutlineFarNormalStartDepth: 1
+    - _OutlineFarNormalThreshold: 8
+    - _OutlineNormalStrength: 1
+    - _OutlineNormalThreshold: 1.4
+    - _OutlineNormalTightening: 16
+    - _OutlineThickness: 0.005
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Scale: 1.01
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -116,13 +126,13 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 2.6701567, g: 2.509667, b: 0, a: 1}
+    - _BaseColor: {r: 0.6226415, g: 0.61066264, b: 0.5198469, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _OutlineColor: {r: 1, g: 0.9971156, b: 0.9009434, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &6286081771695276749
+--- !u!114 &5462577119784347472
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
