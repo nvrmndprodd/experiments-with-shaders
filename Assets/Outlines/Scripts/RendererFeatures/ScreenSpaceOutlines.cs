@@ -23,7 +23,7 @@ public class ScreenSpaceOutlines : ScriptableRendererFeature {
         public float robertsCrossMultiplier = 100.0f;
 
         [Header("Normal Settings")]
-        [Range(0.0f, 1.0f)]
+        [Range(0.0f, 2.0f)]
         public float normalThreshold = 0.4f;
 
         [Header("Depth Normal Relation Settings")]
